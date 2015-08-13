@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: .28rem;
+    font-family: Dengxian,"Helvetica Neue",Helvetica,STHeiTi,sans-serif,'Microsoft YaHei UI','Microsoft YaHei';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#background-image {
+    position: absolute;
+    max-width: 6080px;
+    max-height: 10450px;
+}
+
+#avatar-image {
+    position: absolute;
+}
+
+.result_view_button {
+    position: absolute;
+    opacity: 0;
+}
+
+#share_leading_mask {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#share_leading_view {
+    position: absolute;
+    max-width: 608px;
+    max-height: 202px;
+    top: 0px;
+    opacity = 0;
+}
