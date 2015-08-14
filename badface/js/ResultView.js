@@ -118,7 +118,7 @@ function fixAvatarPosition () {
 }
 
 function configureStartButton () {
-    startButton.style.top = (965 / 1645) * backgourndImage.offsetHeight + "px";
+    startButton.style.top = (850 / 1645) * backgourndImage.offsetHeight + "px";
     startButton.style.width = (320 / 1645) * backgourndImage.offsetHeight + "px";
     startButton.style.height = (70 / 1645) * backgourndImage.offsetHeight + "px";
     startButton.style.left = (document.body.offsetWidth - startButton.offsetWidth) / 2 + "px";
